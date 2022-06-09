@@ -1,0 +1,223 @@
+body {
+    margin: 0, auto;
+}
+
+
+.banner {
+    display: flex;
+    background-color: #a19e9e;
+    color: white;
+    height: 30px;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-between;
+    
+}
+
+.navbar {
+    display: flex;
+    background-color: #0e0e88;
+    color: white;
+    /* justify-content: center;   */ 
+    align-items: center;
+    justify-content: space-around; 
+    border-radius: 10px; 
+    font-size: 20px; 
+}
+
+#logo {
+    background-color: #0e0e88;
+    width: 20%;
+    height: 10%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    justify-content: center;
+}
+
+
+.apply {
+    border-radius: 20px;
+    width: 80px;
+    background-color: #adadf3;
+    color:#0e0e88;  
+    font-size: 20px;  
+}
+
+.sect1 {
+    background-image: url("tierra-mallorca-rgJ1J8SDEAY-unsplash.jpeg");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @media only screen and (max-width:480px) img{
+        width: 100%
+    }
+
+    @media screen and (max-width: 700px) {
+        font-size: 2em;
+    }
+    /* width:auto; */
+    height:600px;
+   
+
+   
+}
+
+.text_sect1 {
+    display: grid;
+    grid-template-columns: (4, 0.6fr 3fr 1fr 1fr);
+    grid-auto-rows: 60px;
+    @media screen and (max-width: 700px) {
+        font-size: 2em;
+    }
+}
+
+.name{
+    text-transform: uppercase;
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    font-size: 30px;
+    @ @media screen and (max-width: 700px) {
+        font-size:0.5rem
+    }
+}    
+
+
+.title_sect1 {
+    text-transform: uppercase;
+    color: #0e0e88;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+    font-size: 60px;
+    @media screen and (max-width: 600px) {
+        font-size:0.5rem
+    }
+    
+    
+}    
+
+.title2_sect1 {
+    color: white;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 6;
+    grid-row-end: 8;
+    font-size: 30px;
+    align-content: center;
+    @media screen and (max-width: 700px) {
+        font-size:0.5rem
+    }
+   
+}
+
+.Get_Quote {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 8;
+    grid-row-end: 8;
+    border-radius: 10px;
+    width: 50%;
+    align-items: flex-start;
+    justify-content: space-between;
+    background-color: #adadf3;
+}
+
+.apply_now {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 9;
+    grid-row-end: 9;
+    border-radius: 10px;
+    width: 50%;
+    align-items: flex-end;
+    justify-content: space-between;
+    background-color: #0e0e88;
+    color: white;
+}
+
+.sect2 {
+    width:auto;
+    height:600px;   
+    background-image: url("blue-white-geometric-background-vector-22374184.webp");
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @media only screen and (max-width:480px) img{
+        width: 100%
+    }
+}
+
+.cindy {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 60px;
+}
+
+.pic_cin {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    justify-self: center;
+    align-self: center;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    @media only screen and (max-width:480px) img{
+        width: 100%
+    }
+
+}
+
+.knowme {
+    grid-column-start: 2;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 9;
+    justify-self: center;
+    align-self: center;
+}
+
+.underlin{
+    text-decoration: underline;
+    text-decoration-color: #adadf3;
+    text-decoration-thickness: 7px;
+
+}
+
+.p_sect2 {
+    max-width: 450px;
+    font-size: 0.8em;
+}
+
+.ul_sect2 {
+    list-style-type: square;
+    font-size: 0.8em;
+    max-width: 450px;
+}
+
+li {
+    max-width: 400px;
+}
+
+.sect2_h1 {
+   
+  /*   box-shadow: 0 4px 2px -2px   #0e0e88; */
+}
+
+.sect3 {
+    background-color: #0e0e88;
+    color: white;
+    height: 400px;
+    display: grid;
+}
